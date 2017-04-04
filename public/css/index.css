@@ -1,0 +1,22 @@
+body {
+  background-color: #14100E;
+}
+
+header {
+  background-color: #FFFFFF;
+  height: 80px;
+}
+
+#headshot {
+  margin: 3% 0 0 2.5%;
+  height: 200%;
+  border-radius: 400px;
+}
+
+/*color palette:
+blue: #32748E
+white: #FFFFFF
+gray1: #869193
+gray2: #454449
+gray3: #2B2B2A
+black: #14100E*/
