@@ -1,16 +1,38 @@
 body {
-  background-color: #14100E;
+  background-image: url('../images/brick_background.jpg');
+  opacity: 90;
 }
 
-header {
-  background-color: #FFFFFF;
-  height: 80px;
+#brick_background {
+  position: absolute;
+  background-color: #14100E;
+  height: 5000px;
+  width: 100%;
+  opacity: .95;
 }
 
 #headshot {
-  margin: 3% 0 0 2.5%;
-  height: 200%;
+  position: absolute;
+  margin: 10px 0 0 30px;
+  height: 220px;
   border-radius: 400px;
+  z-index: 99;
+  opacity: 1;
+}
+
+#name_title {
+  position: absolute;
+  margin: 55px 0 0 270px;
+  transform: rotate(-2deg);
+  z-index: 100;
+  font-size: 6rem;
+}
+
+#projects_background {
+  height: 200px;
+  margin: 20px 0 0 0;
+  clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
+  background-color: #32748E;
 }
 
 /*color palette:
