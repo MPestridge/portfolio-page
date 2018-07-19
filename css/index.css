@@ -20,6 +20,7 @@
 }
 
 #name_title {
+  font-size: 3.5rem;
   padding: 60px 0 0 350px;
   position: absolute;
   transform: rotate(-2deg);
@@ -35,18 +36,33 @@
   max-width: 2000px;
 }
 
+#project-background-1 {
+  background-color: red;
+  height: 350px;
+}
+
+#project-row-1 {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+#project-screenshot-1 {
+  background-color: blue;
+  height: 350px;
+}
+
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
-@media (min-width: 50px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   #headshot {
-    /* height: 10px; */
-    margin: 26px 0 0 20px;
+    height: 125px;
+    margin: 15px 0 0 20px;
   }
 
   #name_title {
-    font-size: 1.75rem;
-    padding: 10px 0 0 180px;
+    font-size: 2rem;
+    padding: 5px 0 0 160px;
     position: absolute;
-    transform: rotate(-2.5deg);
+    transform: rotate(-2deg);
   }
 
   #name_banner {
@@ -61,7 +77,6 @@
   }
 
   #name_title {
-    font-size: 3.5rem;
     margin: 50px 0 0 150px;
   }
 
