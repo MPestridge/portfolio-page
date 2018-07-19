@@ -1,12 +1,12 @@
-body {
+/*body {
   background-image: url('../images/brick_background.jpg');
   opacity: 90;
-}
+}*/
 
-#brick_background {
+#body_background {
   position: absolute;
   background-color: #14100E;
-  height: 5000px;
+  height: 100%;
   width: 100%;
   opacity: .95;
 }
@@ -14,7 +14,7 @@ body {
 #headshot {
   position: absolute;
   margin: 30px 0 0 30px;
-  height: 4.20%;
+  height:300px;
   border-radius: 100%;
   z-index: 99;
   opacity: 1;
@@ -22,10 +22,12 @@ body {
 
 #name_title {
   position: absolute;
+  padding: 60px 0 0 350px;
+  transform: rotate(-2deg);
   z-index: 100;
 }
 
-#projects_background {
+#name_banner {
   display: flex;
   height: 200px;
   max-width: 1400px;
@@ -34,40 +36,43 @@ body {
   background-color: #32748E;
 }
 
-@media (min-width: 300px) and (max-width: 767px){
+@media (min-width: 300px) and (max-width: 767px) {
   #headshot {
     margin: 26px 0 0 20px;
-    height: 2.1%;
+    height: 22%;
   }
 
   #name_title {
-    transform: rotate(-4deg);
+    position: absolute;
+    transform: rotate(-2.75deg);
     font-size: 2rem;
-    margin: 50px 0 0 150px;
+    margin: 32.5px 0 0 150px;
   }
 
-  #projects_background {
+  #name_banner {
     height: 100px;
   }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   #headshot {
     margin: 26px 0 0 20px;
-    height: 2.1%;
+    height: 22%;
   }
 
   #name_title {
+    position: absolute;
     transform: rotate(-1deg);
     font-size: 3.5rem;
     margin: 50px 0 0 150px;
   }
 
-  #projects_background {
+  #name_banner {
     height: 100px;
   }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #name_title {
+    position: absolute;
     transform: rotate(-2.75deg);
     font-size: 5rem;
     margin: 60px 0 0 260px;
@@ -76,20 +81,22 @@ body {
 
 @media (min-width: 1200px) {
   #name_title {
+    position: absolute;
     transform: rotate(-2.75deg);
     font-size: 6rem;
     margin: 55px 0 0 270px;
   }
 
-  /*#projects_background {
+  /*#name_banner {
     margin-left: 15%;
   }*/
 }
 
-/*color palette:
+/* color palette:
 blue: #32748E
 white: #FFFFFF
 gray1: #869193
 gray2: #454449
 gray3: #2B2B2A
-black: #14100E*/
+black: #14100E
+*/
