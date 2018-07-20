@@ -12,28 +12,29 @@
 }
 
 #headshot {
-  border-radius: 100%;
-  height:300px;
-  margin: 30px 0 0 30px;
+  /* border-radius: 100%; */
+  clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
+  height:270px;
+  margin: 30px 0 0 0;
   position: absolute;
   z-index: 99;
 }
 
-#name_title {
-  font-size: 3.5rem;
-  padding: 60px 0 0 350px;
-  position: absolute;
-  transform: rotate(-2deg);
-  z-index: 100;
-}
-
-#name_banner {
+#name-banner {
   background-color: #32748E;
   clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
   display: flex;
   height: 200px;
   margin: 20px 0 0 0;
   max-width: 2000px;
+}
+
+#name-title {
+  font-size: 3.5rem;
+  padding: 55px 0 0 300px;
+  position: absolute;
+  transform: rotate(-2deg);
+  z-index: 100;
 }
 
 #project-background-1 {
@@ -51,42 +52,63 @@
   height: 350px;
 }
 
+/* ------ EXTRA SMALL DEVICE MEDIA QUERY ------ */
+@media (max-width: 575px) {
+  #headshot {
+    height: 120px;
+    margin: 20px 0 0 0;
+  }
+
+  #name-banner {
+    height: 80px;
+  }
+
+  #name-title {
+    font-size: 1.75rem;
+    padding: 0 0 0 140px;
+    transform: rotate(-2.5deg);
+  }
+}
+
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
 @media (min-width: 576px) and (max-width: 767px) {
   #headshot {
-    height: 125px;
-    margin: 15px 0 0 20px;
+    height: 135px;
+    margin: 15px 0 0 0;
   }
 
-  #name_title {
+  #name-title {
     font-size: 2rem;
     padding: 5px 0 0 160px;
     position: absolute;
     transform: rotate(-2deg);
   }
 
-  #name_banner {
+  #name-banner {
     height: 100px;
   }
 
 /* ------ MEDIUM DEVICE MEDIA QUERY ------ */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #headshot {
-    height: 350px;
     margin: 26px 0 0 20px;
   }
 
-  #name_title {
+  #name-title {
     margin: 50px 0 0 150px;
   }
 
-  #name_banner {
-    height: 100px;
+  #name-banner {
+    height: 300px;
   }
 
 /* ------ LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 992px) and (max-width: 1199px) {
-  #name_title {
+  #headshot {
+    margin: 26px 0 0 20px;
+  }
+
+  #name-title {
     font-size: 5rem;
     margin: 60px 0 0 260px;
   }
@@ -94,12 +116,12 @@
 
 /* ------ EXTRA LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 1200px) {
-  #name_title {
+  #name-title {
     font-size: 6rem;
     margin: 55px 0 0 270px;
   }
 
-  /*#name_banner {
+  /*#name-banner {
     margin-left: 15%;
   }*/
 }
