@@ -38,8 +38,21 @@
 }
 
 #project-background-1 {
-  background-color: red;
-  height: 350px;
+  height: 400px;
+  padding: 0;
+}
+
+.project-image {
+  /* height: 400px; */
+  width: 100%;
+}
+
+.project-image-container {
+  padding: 0;
+}
+
+#project-image-1 {
+  clip-path: polygon(0 0, 100% 0, 100% 83%, 83% 100%, 0 88%);
 }
 
 #project-row-1 {
@@ -47,9 +60,12 @@
   padding: 20px 0 0 0;
 }
 
-#project-screenshot-1 {
-  background-color: blue;
-  height: 350px;
+.project-text {
+
+}
+
+#project-text-1 {
+  padding: 40px 0 0 0;
 }
 
 /* ------ EXTRA SMALL DEVICE MEDIA QUERY ------ */
