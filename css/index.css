@@ -58,6 +58,10 @@
   clip-path: polygon(94% 0, 100% 18%, 91% 97%, 26% 100%, 0 90%, 0 0);
 }
 
+#project-image-3 {
+  clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 96%, 0 11%, 13% 0);
+}
+
 #project-row-1 {
   margin: 0;
   padding: 20px 0 0 0;
