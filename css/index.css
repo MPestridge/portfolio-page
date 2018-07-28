@@ -14,10 +14,6 @@ a {
   position: absolute;
 }
 
-.project-title {
-  color: #32748E;
-}
-
 #headshot {
   clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
   height:270px;
@@ -36,7 +32,8 @@ a {
 }
 
 #name-title {
-  font-size: 3.5rem;
+  font-family: 'Palatino';
+  font-size: 4.5rem;
   padding: 55px 0 0 300px;
   position: absolute;
   transform: rotate(-2deg);
@@ -89,11 +86,21 @@ a {
 }
 
 .project-paragraph-text {
-
+  color: #FFFFFF;
+  font-family: 'Palatino Linotype', serif;
+  font-size: 1.75rem;
+  padding: 0 10px;
 }
 
 #project-text-1 {
   padding: 40px 0 0 0;
+}
+
+.project-title {
+  color: #32748E;
+  font-family: 'Palatino';
+  font-size: 2.5rem;
+  padding: 0 10px;
 }
 
 /* ------ EXTRA SMALL DEVICE MEDIA QUERY ------ */
