@@ -1,7 +1,7 @@
-/*body {
+/* body {
   background-image: url('../images/brick_background.jpg');
   opacity: 90;
-}*/
+} */
 
 a {
   text-decoration: none !important;
@@ -9,13 +9,12 @@ a {
 
 #body_background {
   background-color: #14100E;
-  /* height: 100%; */
+  padding-bottom: -110px;
   opacity: .95;
   position: absolute;
-  /* width: 100%; */
 }
 
-h1 {
+.project-title {
   color: #32748E;
 }
 
