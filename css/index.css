@@ -3,12 +3,20 @@
   opacity: 90;
 }*/
 
+a {
+  text-decoration: none !important;
+}
+
 #body_background {
   background-color: #14100E;
   /* height: 100%; */
   opacity: .95;
   position: absolute;
   /* width: 100%; */
+}
+
+h1 {
+  color: #32748E;
 }
 
 #headshot {
@@ -81,7 +89,7 @@
   top: -110px;
 }
 
-.project-text {
+.project-paragraph-text {
 
 }
 
