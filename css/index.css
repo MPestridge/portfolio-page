@@ -7,7 +7,19 @@ a {
   text-decoration: none !important;
 }
 
-#body_background {
+#bio-info {
+  font-family: 'Palatino';
+  font-size: 3.3rem;
+  font-weight: 100;
+  color: #FFFFFF;
+  overflow: visible;
+  padding: 105px 0 0 345px;
+  position:inherit;
+  transform: rotate(-2deg);
+  z-index: 101;
+}
+
+#body-background {
   background-color: #14100E;
   padding-bottom: -110px;
   opacity: .95;
@@ -22,7 +34,7 @@ a {
   z-index: 99;
 }
 
-#name-banner {
+#name-banner-container {
   background-color: #32748E;
   clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
   display: flex;
@@ -46,7 +58,6 @@ a {
 }
 
 .project-image {
-  /* height: 400px; */
   width: 100%;
 }
 
@@ -68,7 +79,7 @@ a {
 
 #project-row-1 {
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 0;
 }
 
 #project-row-2 {
@@ -92,8 +103,8 @@ a {
   padding: 0 10px;
 }
 
-#project-text-1 {
-  padding: 40px 0 0 0;
+#project-text-3 {
+  padding: 20px 0 0 0;
 }
 
 .project-title {
@@ -103,6 +114,22 @@ a {
   padding: 0 10px;
 }
 
+.section-title {
+  background-color: #32748E;
+  clip-path: polygon(0 0, 100% 0, 98% 83%, 83% 100%, 4% 88%);
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: 'Palatino Linotype', serif;
+  font-size: 4rem;
+  text-align: center;
+  width: 250px;
+}
+
+.section-title-container {
+  text-align: center;
+  width: 100%;
+}
+
 /* ------ EXTRA SMALL DEVICE MEDIA QUERY ------ */
 @media (max-width: 575px) {
   #headshot {
@@ -110,7 +137,7 @@ a {
     margin: 20px 0 0 0;
   }
 
-  #name-banner {
+  #name-banner-container {
     height: 80px;
   }
 
@@ -135,7 +162,7 @@ a {
     transform: rotate(-2deg);
   }
 
-  #name-banner {
+  #name-banner-container {
     height: 100px;
   }
 
@@ -149,7 +176,7 @@ a {
     margin: 50px 0 0 150px;
   }
 
-  #name-banner {
+  #name-banner-container {
     height: 300px;
   }
 
@@ -172,7 +199,7 @@ a {
     margin: 55px 0 0 270px;
   }
 
-  /*#name-banner {
+  /*#name-banner-container {
     margin-left: 15%;
   }*/
 }
