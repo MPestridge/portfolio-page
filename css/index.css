@@ -13,7 +13,7 @@ a {
   font-weight: 100;
   color: #FFFFFF;
   overflow: visible;
-  padding: 105px 0 0 345px;
+  padding: 90px 0 0 345px;
   position:inherit;
   transform: rotate(-2deg);
   z-index: 101;
@@ -46,7 +46,7 @@ a {
 #name-title {
   font-family: 'Palatino';
   font-size: 4.5rem;
-  padding: 55px 0 0 300px;
+  padding: 40px 0 0 300px;
   position: absolute;
   transform: rotate(-2deg);
   z-index: 100;
@@ -114,6 +114,10 @@ a {
   padding: 0 10px;
 }
 
+.row {
+  margin: 0;
+}
+
 .section-title {
   background-color: #32748E;
   clip-path: polygon(0 0, 100% 0, 98% 83%, 83% 100%, 4% 88%);
@@ -127,6 +131,21 @@ a {
 
 .section-title-container {
   text-align: center;
+  width: 100%;
+}
+
+#skills-image-desktop {
+  float: right;
+  padding: 0 30px 0 0;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+  width: 60%;
+  z-index: 101;
+}
+
+#skills-image-mobile {
+  visibility: visible;
   width: 100%;
 }
 
@@ -145,6 +164,14 @@ a {
     font-size: 1.75rem;
     padding: 0 0 0 140px;
     transform: rotate(-2.5deg);
+  }
+
+  #skills-image-desktop {
+    display: none;
+  }
+
+  #skills-image-mobile {
+    visibility: visible;
   }
 }
 
@@ -166,6 +193,15 @@ a {
     height: 100px;
   }
 
+  #skills-image-desktop {
+    display: none;
+  }
+
+  #skills-image-mobile {
+    visibility: visible;
+  }
+}
+
 /* ------ MEDIUM DEVICE MEDIA QUERY ------ */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #headshot {
@@ -180,6 +216,15 @@ a {
     height: 300px;
   }
 
+  #skills-image-desktop {
+    visibility: visible;
+  }
+
+  #skills-image-mobile {
+    display: none;
+  }
+}
+
 /* ------ LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 992px) and (max-width: 1199px) {
   #headshot {
@@ -187,16 +232,32 @@ a {
   }
 
   #name-title {
-    font-size: 5rem;
-    margin: 60px 0 0 260px;
+    /* font-size: 5rem; */
+    /* margin: 60px 0 0 260px; */
+  }
+
+  #skills-image-desktop {
+    visibility: visible;
+  }
+
+  #skills-image-mobile {
+    display: none;
   }
 }
 
 /* ------ EXTRA LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 1200px) {
   #name-title {
-    font-size: 6rem;
-    margin: 55px 0 0 270px;
+    /* font-size: 6rem; */
+    /* margin: 55px 0 0 270px; */
+  }
+
+  #skills-image-desktop {
+    visibility: visible;
+  }
+
+  #skills-image-mobile {
+    display: none;
   }
 
   /*#name-banner-container {
