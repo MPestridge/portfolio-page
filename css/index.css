@@ -1,7 +1,6 @@
-/* body {
-  background-image: url('../images/brick_background.jpg');
-  opacity: 90;
-} */
+body {
+  background-color: #2B2B2A;
+}
 
 a {
   text-decoration: none !important;
@@ -19,11 +18,15 @@ a {
   z-index: 101;
 }
 
-#body-background {
+/* #body-background {
   background-color: #14100E;
-  padding-bottom: -110px;
   opacity: .95;
-  position: absolute;
+  position: relative;
+} */
+
+#header-container {
+  position: relative;
+  /* width: 100%; */
 }
 
 #headshot {
@@ -44,6 +47,7 @@ a {
 }
 
 #name-title {
+  color: #14100E;
   font-family: 'Palatino';
   font-size: 4.5rem;
   padding: 40px 0 0 300px;
@@ -114,6 +118,10 @@ a {
   padding: 0 10px;
 }
 
+#projects-section-container {
+  position: relative;
+}
+
 .row {
   margin: 0;
 }
@@ -131,21 +139,23 @@ a {
 
 .section-title-container {
   text-align: center;
+  padding: 0 0 10px 0;
   width: 100%;
 }
 
 #skills-image-desktop {
-  float: right;
   right: 2%;
-  padding: 0 0px 0 0;
+  padding: 0;
   position: absolute;
   top: 160px;
   visibility: hidden;
-  /* width: 60%; */
   z-index: 101;
 }
 
 #skills-image-mobile {
+  padding: 0 10px;
+  position: absolute;
+  top: 70px;
   visibility: visible;
   width: 100%;
 }
@@ -219,6 +229,7 @@ a {
 
   #skills-image-desktop {
     visibility: visible;
+    width: 60%;
   }
 
   #skills-image-mobile {
@@ -239,6 +250,7 @@ a {
 
   #skills-image-desktop {
     visibility: visible;
+    width: 60%;
   }
 
   #skills-image-mobile {
@@ -255,6 +267,7 @@ a {
 
   #skills-image-desktop {
     visibility: visible;
+    width: 60%;
   }
 
   #skills-image-mobile {
