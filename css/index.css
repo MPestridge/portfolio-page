@@ -18,11 +18,9 @@ a {
   z-index: 101;
 }
 
-/* #body-background {
-  background-color: #14100E;
-  opacity: .95;
-  position: relative;
-} */
+#body-background {
+  max-width: 1400px;
+}
 
 #header-container {
   position: relative;
@@ -120,6 +118,7 @@ a {
 
 #projects-section-container {
   position: relative;
+  top: 365px;
 }
 
 .row {
@@ -153,7 +152,8 @@ a {
 }
 
 #skills-image-mobile {
-  padding: 0 10px;
+  height: 430px;
+  padding: 0 10%;
   position: absolute;
   top: 70px;
   visibility: visible;
@@ -180,10 +180,6 @@ a {
   #skills-image-desktop {
     display: none;
   }
-
-  #skills-image-mobile {
-    visibility: visible;
-  }
 }
 
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
@@ -204,12 +200,18 @@ a {
     height: 100px;
   }
 
+  #projects-section-container {
+    position: relative;
+    top: 410px;
+  }
+
   #skills-image-desktop {
     display: none;
   }
 
   #skills-image-mobile {
-    visibility: visible;
+    height: 500px;
+    padding: 0 18%;
   }
 }
 
@@ -228,8 +230,9 @@ a {
   }
 
   #skills-image-desktop {
+    height: 340px;
     visibility: visible;
-    width: 60%;
+    width: 70%;
   }
 
   #skills-image-mobile {
@@ -249,6 +252,7 @@ a {
   }
 
   #skills-image-desktop {
+    height: 380px;
     visibility: visible;
     width: 60%;
   }
@@ -266,6 +270,7 @@ a {
   }
 
   #skills-image-desktop {
+    height: 440px;
     visibility: visible;
     width: 60%;
   }
