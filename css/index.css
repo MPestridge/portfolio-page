@@ -269,6 +269,10 @@ a {
     /* margin: 55px 0 0 270px; */
   }
 
+  #projects-section-container {
+    top: 320px;
+  }
+
   #skills-image-desktop {
     height: 440px;
     visibility: visible;
