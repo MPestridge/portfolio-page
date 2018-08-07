@@ -75,14 +75,20 @@ a {
 
 #project-image-1 {
   clip-path: polygon(0 0, 100% 0, 100% 83%, 83% 100%, 4% 88%);
+  position: relative;
+  z-index: 103;
 }
 
 #project-image-2 {
   clip-path: polygon(94% 0, 100% 18%, 91% 97%, 26% 100%, 0 90%, 0 0);
+  position: relative;
+  z-index: 103;
 }
 
 #project-image-3 {
   clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 96%, 0 11%, 13% 0);
+  position: relative;
+  z-index: 103;
 }
 
 #project-row-1 {
@@ -91,10 +97,12 @@ a {
 }
 
 #project-row-2 {
+  background-color: #2B2B2A;
   margin: 0;
   padding: 0;
   position: relative;
   top: -80px;
+  z-index: 100;
 }
 
 #project-row-3 {
@@ -231,6 +239,12 @@ a {
 
 /* ------ MEDIUM DEVICE MEDIA QUERY ------ */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  #bio-info {
+    font-size: 2.5rem;
+    padding: 20px;
+    top: 280px;
+  }
+
   #name-title {
     margin: 50px 0 0 150px;
   }
@@ -260,6 +274,12 @@ a {
 
 /* ------ LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #bio-info {
+    font-size: 2.5rem;
+    padding: 20px;
+    top: 280px;
+  }
+
   #projects-section-container {
     top: 260px;
   }
