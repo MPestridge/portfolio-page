@@ -1,5 +1,6 @@
 body {
   background-color: #191411;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 }
 
 #bio-title {
-  font-family: 'Palatino';
+  font-family: 'Work Sans', sans-serif;
   font-size: 3.3rem;
   font-weight: 100;
   color: #FFFFFF;
@@ -31,6 +32,11 @@ a {
 
 #header-container {
   position: relative;
+}
+
+.headline-text {
+  color: #32748E;
+  font-weight: 500;
 }
 
 #headshot {
@@ -52,7 +58,7 @@ a {
 
 #name-title {
   color: #454449;
-  font-family: 'Palatino';
+  font-family: 'Trirong', serif;
   font-size: 4.5rem;
   padding: 40px 0 0 300px;
   position: absolute;
@@ -114,7 +120,6 @@ a {
 
 .project-paragraph-text {
   color: #FFFFFF;
-  font-family: 'Palatino Linotype', serif;
   font-size: 1.75rem;
   padding: 0 20px;
 }
@@ -125,8 +130,7 @@ a {
 
 .project-title {
   color: #32748E;
-  font-family: 'Palatino';
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   padding: 0 25px;
 }
 
@@ -144,7 +148,7 @@ a {
   clip-path: polygon(0 0, 100% 0, 98% 83%, 83% 100%, 4% 99%);
   color: #FFFFFF;
   display: inline-block;
-  font-family: 'Palatino Linotype', serif;
+  font-family: 'Taviraj', serif;
   font-size: 4rem;
   text-align: center;
   width: 250px;
@@ -339,4 +343,13 @@ gray2: #454449
 gray3: #2B2B2A
 black1: #191411
 black2: #14100E
+*/
+
+/* fonts:
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Trirong', serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Taviraj', serif;
+font-family: 'Gentium Basic', serif;
 */
