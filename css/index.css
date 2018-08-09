@@ -66,11 +66,6 @@ a {
   z-index: 100;
 }
 
-#project-background-1 {
-  height: 400px;
-  padding: 0;
-}
-
 .project-image {
   width: 100%;
 }
@@ -98,6 +93,7 @@ a {
 }
 
 #project-row-1 {
+  height: 400px;
   margin: 0;
   padding: 0;
 }
@@ -120,7 +116,7 @@ a {
 
 .project-paragraph-text {
   color: #FFFFFF;
-  font-size: 1.75rem;
+  font-size: 2.1rem;
   padding: 0 20px;
 }
 
@@ -206,13 +202,24 @@ a {
 
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
 @media (min-width: 576px) and (max-width: 767px) {
+  #bio-info {
+    font-size: 2.1rem;
+    padding-top: 370px;
+    position: relative;
+  }
+
+  #bio-title {
+    font-size: 1.8rem;
+    padding: 30px 0 0 175px;
+  }
+
   #headshot {
     height: 135px;
     margin: 15px 0 0 0;
   }
 
   #name-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 5px 0 0 160px;
     position: absolute;
     transform: rotate(-2deg);
@@ -222,13 +229,19 @@ a {
     height: 100px;
   }
 
+  .project-image-container {
+    padding: 0 15px;
+  }
+
   #projects-section-container {
     position: relative;
-    top: 410px;
+    top: 85px;
   }
 
   .section-title {
+    font-size: 3rem;
     padding: 0;
+    width: 200px;
   }
 
   #skills-image-desktop {
@@ -236,8 +249,9 @@ a {
   }
 
   #skills-image-mobile {
-    height: 500px;
+    height: 510px;
     padding: 0 18%;
+    top: 95px;
   }
 }
 
@@ -314,6 +328,14 @@ a {
   #name-title {
     /* font-size: 6rem; */
     /* margin: 55px 0 0 270px; */
+  }
+
+  .project-paragraph-text {
+    font-size: 2.1rem;
+  }
+
+  .project-title {
+    font-size: 3.3rem;
   }
 
   #projects-section-container {
