@@ -10,33 +10,24 @@ a {
 #bio-info {
   color: #FFFFFF;
   font-size: 1.75rem;
-  margin-top: 380px;
+  margin-top: -30px;
   position: relative;
 }
 
-#bio-title {
-  color: #FFFFFF;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.75rem;
-  font-weight: 100;
-  margin: 40px 0 0 130px;
-  position: absolute;
-  transform: rotate(-2.5deg);
-  z-index: 101;
-}
-
 #body-background {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 1400px;
 }
 
 #header-container {
-  height: 615px;
+  background-color: #2B2B2A;
+  height: 100%;
   position: relative;
 }
 
 .headline-text {
   color: #32748E;
+  font-size: 2.7rem;
   font-weight: 500;
 }
 
@@ -67,7 +58,19 @@ a {
   z-index: 100;
 }
 
+#occupation-title {
+  color: #FFFFFF;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin: 40px 0 0 130px;
+  position: absolute;
+  transform: rotate(-2.5deg);
+  z-index: 101;
+}
+
 .project-image {
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -88,13 +91,12 @@ a {
 }
 
 #project-image-3 {
-  clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 96%, 0 11%, 13% 0);
+  clip-path: polygon(16% 0, 100% 5%, 100% 37%, 94% 100%, 0 93%, 0 8%);
   position: relative;
   z-index: 102;
 }
 
 #project-row-1 {
-  height: 400px;
   margin: 0;
   padding: 0;
 }
@@ -103,34 +105,30 @@ a {
   background-color: #2B2B2A;
   margin: 0;
   padding: 0;
-  position: relative;
   z-index: 100;
 }
 
 #project-row-3 {
   margin: 0;
   padding: 0;
-  position: relative;
 }
 
 .project-paragraph-text {
   color: #FFFFFF;
-  font-size: 2.1rem;
-  margin: 0 20px;
-}
-
-#project-text-3 {
-  margin: 20px 0 0 0;
+  font-size: 1.75rem;
+  margin: 0 10px;
 }
 
 .project-title {
   color: #32748E;
+  /* display: inline-block; */
   font-size: 2.7rem;
-  margin: 0 25px;
+  margin: 0 10px;
+  /* text-align: center; */
 }
 
 #projects-section-container {
-  position: relative;
+  /* position: relative; */
 }
 
 .row {
@@ -143,7 +141,7 @@ a {
   color: #FFFFFF;
   display: inline-block;
   font-family: 'Taviraj', serif;
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin: 10px 0;
   text-align: center;
   width: 175px;
@@ -157,19 +155,19 @@ a {
 
 #skills-image-desktop {
   /* right: 2%;
-  padding: 0;
-  position: absolute;
-  top: 160px; */
+  padding: 0; */
+  display: none;
+  /* position: absolute; */
+  /* top: 160px; */
   visibility: hidden;
 }
 
 #skills-image-mobile {
   height: 430px;
   left: 50%;
-  margin-left: -165px;
+  margin: -35px 0 0 -165px;
   padding: 12px 0;
-  position: absolute;
-  top: 70px;
+  position: relative;
   visibility: visible;
 }
 
@@ -242,10 +240,6 @@ a {
     width: 200px;
   }
 
-  #skills-image-desktop {
-    display: none;
-  }
-
   #skills-image-mobile {
     height: 510px;
     padding: 0 18%;
@@ -278,6 +272,7 @@ a {
   }
 
   #skills-image-desktop {
+    display: inherit;
     height: 340px;
     padding: 0;
     position: absolute;
@@ -290,6 +285,7 @@ a {
 
   #skills-image-mobile {
     display: none;
+    visibility: hidden;
   }
 }
 
