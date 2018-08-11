@@ -10,17 +10,17 @@ a {
 #bio-info {
   color: #FFFFFF;
   font-size: 1.75rem;
+  margin-top: 380px;
   position: relative;
-  padding-top: 360px;
 }
 
 #bio-title {
+  color: #FFFFFF;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.75rem;
   font-weight: 100;
-  color: #FFFFFF;
-  padding: 40px 0 0 145px;
-  position:inherit;
+  margin: 40px 0 0 130px;
+  position: absolute;
   transform: rotate(-2.5deg);
   z-index: 101;
 }
@@ -31,7 +31,7 @@ a {
 }
 
 #header-container {
-  height: 615px;;
+  height: 615px;
   position: relative;
 }
 
@@ -42,7 +42,7 @@ a {
 
 #headshot {
   clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
-  height:120px;
+  height: 120px;
   margin: 20px 0 0 0;
   position: absolute;
   z-index: 99;
@@ -51,7 +51,7 @@ a {
 #name-banner-container {
   background-color: #32748E;
   clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
-  /* display: flex; */
+  display: relative;
   height: 90px;
   margin: 20px 0 0 0;
   max-width: 2000px;
@@ -61,7 +61,7 @@ a {
   color: #454449;
   font-family: 'Trirong', serif;
   font-size: 2rem;
-  padding: 0 0 0 140px;
+  margin: 15px 0 0 125px;
   position: absolute;
   transform: rotate(-2.5deg);
   z-index: 100;
@@ -104,7 +104,6 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
-  /* top: -80px; */
   z-index: 100;
 }
 
@@ -112,23 +111,22 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
-  /* top: -110px; */
 }
 
 .project-paragraph-text {
   color: #FFFFFF;
   font-size: 2.1rem;
-  padding: 0 20px;
+  margin: 0 20px;
 }
 
 #project-text-3 {
-  padding: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .project-title {
   color: #32748E;
   font-size: 2.7rem;
-  padding: 0 25px;
+  margin: 0 25px;
 }
 
 #projects-section-container {
@@ -152,8 +150,8 @@ a {
 }
 
 .section-title-container {
-  text-align: center;
   padding: 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -173,7 +171,6 @@ a {
   position: absolute;
   top: 70px;
   visibility: visible;
-  /* width: 100%; */
 }
 
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
