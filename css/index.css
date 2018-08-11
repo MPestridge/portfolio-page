@@ -9,19 +9,19 @@ a {
 
 #bio-info {
   color: #FFFFFF;
-  position: absolute;
-  top: 100px;
+  font-size: 1.75rem;
+  position: relative;
+  padding-top: 360px;
 }
 
 #bio-title {
   font-family: 'Work Sans', sans-serif;
-  font-size: 3.3rem;
+  font-size: 1.75rem;
   font-weight: 100;
   color: #FFFFFF;
-  overflow: visible;
-  padding: 90px 0 0 345px;
+  padding: 40px 0 0 145px;
   position:inherit;
-  transform: rotate(-2deg);
+  transform: rotate(-2.5deg);
   z-index: 101;
 }
 
@@ -31,6 +31,7 @@ a {
 }
 
 #header-container {
+  height: 615px;;
   position: relative;
 }
 
@@ -41,8 +42,8 @@ a {
 
 #headshot {
   clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
-  height:270px;
-  margin: 30px 0 0 0;
+  height:120px;
+  margin: 20px 0 0 0;
   position: absolute;
   z-index: 99;
 }
@@ -50,8 +51,8 @@ a {
 #name-banner-container {
   background-color: #32748E;
   clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
-  display: flex;
-  height: 200px;
+  /* display: flex; */
+  height: 90px;
   margin: 20px 0 0 0;
   max-width: 2000px;
 }
@@ -59,10 +60,10 @@ a {
 #name-title {
   color: #454449;
   font-family: 'Trirong', serif;
-  font-size: 4.5rem;
-  padding: 40px 0 0 300px;
+  font-size: 2rem;
+  padding: 0 0 0 140px;
   position: absolute;
-  transform: rotate(-2deg);
+  transform: rotate(-2.5deg);
   z-index: 100;
 }
 
@@ -83,13 +84,13 @@ a {
 #project-image-2 {
   clip-path: polygon(94% 0, 100% 18%, 91% 97%, 26% 100%, 0 90%, 0 0);
   position: relative;
-  z-index: 103;
+  z-index: 101;
 }
 
 #project-image-3 {
   clip-path: polygon(28% 0, 100% 0, 100% 100%, 2% 96%, 0 11%, 13% 0);
   position: relative;
-  z-index: 103;
+  z-index: 102;
 }
 
 #project-row-1 {
@@ -103,7 +104,7 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
-  top: -80px;
+  /* top: -80px; */
   z-index: 100;
 }
 
@@ -111,7 +112,7 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
-  top: -110px;
+  /* top: -110px; */
 }
 
 .project-paragraph-text {
@@ -132,7 +133,6 @@ a {
 
 #projects-section-container {
   position: relative;
-  top: 365px;
 }
 
 .row {
@@ -145,9 +145,10 @@ a {
   color: #FFFFFF;
   display: inline-block;
   font-family: 'Taviraj', serif;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin: 10px 0;
   text-align: center;
-  width: 250px;
+  width: 175px;
 }
 
 .section-title-container {
@@ -157,47 +158,22 @@ a {
 }
 
 #skills-image-desktop {
-  right: 2%;
+  /* right: 2%;
   padding: 0;
   position: absolute;
-  top: 160px;
+  top: 160px; */
   visibility: hidden;
-  z-index: 101;
 }
 
 #skills-image-mobile {
   height: 430px;
-  padding: 0 10%;
+  left: 50%;
+  margin-left: -165px;
+  padding: 12px 0;
   position: absolute;
   top: 70px;
   visibility: visible;
-  width: 100%;
-}
-
-/* ------ EXTRA SMALL DEVICE MEDIA QUERY ------ */
-@media (max-width: 575px) {
-  #headshot {
-    height: 120px;
-    margin: 20px 0 0 0;
-  }
-
-  #name-banner-container {
-    height: 80px;
-  }
-
-  #name-title {
-    font-size: 1.75rem;
-    padding: 0 0 0 140px;
-    transform: rotate(-2.5deg);
-  }
-
-  .section-title {
-    padding: 0;
-  }
-
-  #skills-image-desktop {
-    display: none;
-  }
+  /* width: 100%; */
 }
 
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
@@ -229,8 +205,33 @@ a {
     height: 100px;
   }
 
+  #project-image-1 {
+
+  }
+
   .project-image-container {
     padding: 0 15px;
+  }
+
+  #project-row-1 {
+    padding-top: 10px;
+    position: relative;
+    top: 0;
+  }
+
+  #project-row-2 {
+    position: relative;
+    top: 0;
+  }
+
+  #project-row-3 {
+    position: relative;
+    top: 0;
+  }
+
+  #project-text-1 {
+    position: relative;
+    z-index: 101;
   }
 
   #projects-section-container {
@@ -281,8 +282,13 @@ a {
 
   #skills-image-desktop {
     height: 340px;
+    padding: 0;
+    position: absolute;
+    right: 2%;
+    top: 160px;
     visibility: visible;
     width: 70%;
+    z-index: 101;
   }
 
   #skills-image-mobile {
@@ -308,8 +314,13 @@ a {
 
   #skills-image-desktop {
     height: 380px;
+    padding: 0;
+    position: absolute;
+    right: 2%;
+    top: 160px;
     visibility: visible;
     width: 60%;
+    z-index: 101;
   }
 
   #skills-image-mobile {
@@ -348,8 +359,13 @@ a {
 
   #skills-image-desktop {
     height: 470px;
+    padding: 0;
+    position: absolute;
+    right: 2%;
+    top: 160px;
     visibility: visible;
     width: 60%;
+    z-index: 101;
   }
 
   #skills-image-mobile {
