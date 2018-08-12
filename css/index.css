@@ -7,6 +7,11 @@ a {
   text-decoration: none !important;
 }
 
+.bio-icon {
+  height: 30px;
+  margin: 5px 20px;
+}
+
 #bio-info {
   background: linear-gradient(#2B2B2A, #222221);
   box-shadow: 0px 5px 15px #222221;
@@ -20,6 +25,27 @@ a {
 #body-background {
   /* margin: 0 auto; */
   max-width: 1400px;
+}
+
+#footer-banner-container {
+  background: linear-gradient(#32748E, #285c71);
+  height: 90px;
+  margin: -10px 0 0 0;
+  max-width: 2000px;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 56%);
+  z-index: 98;
+}
+
+.footer-icon {
+  height: 30px;
+  margin: 10px;
+  padding: 0;
+}
+
+#footer-icons-container {
+  padding-top: 15px;
+  transform: rotate(2.5deg);
 }
 
 #header-container {
@@ -50,6 +76,10 @@ a {
   margin: 15px 0 0 0;
   position: absolute;
   z-index: 99;
+}
+
+.icons-container {
+  text-align: center;
 }
 
 .list-items {
@@ -131,7 +161,7 @@ a {
   background: linear-gradient(#2B2B2A, #222221);
   box-shadow: 0px 5px 15px #222221;
   margin: 0;
-  padding: 0;
+  padding: 1px 0 0 0;
 }
 
 .project-paragraph-text {
@@ -189,7 +219,7 @@ a {
 #skills-image-mobile {
   height: 350px;
   left: 50%;
-  margin: 10px 0 0 -140px;
+  margin: -20px 0 -10px -140px;
   padding: 0;
   position: relative;
   visibility: visible;
