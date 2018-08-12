@@ -1,6 +1,7 @@
 body {
   background-color: #191411;
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -23,7 +24,6 @@ a {
 }
 
 #body-background {
-  /* margin: 0 auto; */
   max-width: 1400px;
 }
 
@@ -48,14 +48,6 @@ a {
   transform: rotate(2.5deg);
 }
 
-#header-container {
-  /* background-color: #2B2B2A; */
-  /* background: linear-gradient(#2B2B2A, #222221); */
-  /* box-shadow: 0px 0px 15px #222221; */
-  height: 100%;
-  position: relative;
-}
-
 .headline-text {
   color: #32748E;
   font-size: 2rem;
@@ -64,11 +56,6 @@ a {
 
 #headshot-desktop {
   display: none;
-  height: 120px;
-  margin: 20px 0 0 -35px;
-  position: absolute;
-  -webkit-clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
-  z-index: 99;
 }
 
 #headshot-mobile {
@@ -83,12 +70,11 @@ a {
 }
 
 .list-items {
-  font-family: 'Alegreya', serif;;
+  font-family: 'Alegreya', serif;
 }
 
 #name-banner-container {
   background: linear-gradient(#32748E, #285c71);
-  /* clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%); */
   height: 90px;
   margin: 20px 0 0 0;
   max-width: 2000px;
@@ -154,7 +140,6 @@ a {
 #project-row-2 {
   margin: 0;
   padding: 0;
-  z-index: 100;
 }
 
 #project-row-3 {
@@ -173,19 +158,14 @@ a {
 
 .project-title {
   color: #32748E;
-  /* display: inline-block; */
   font-size: 2rem;
   margin: 0 10px;
   padding: 15px 0 5px 0;
-  /* text-align: center; */
-}
-
-#projects-section-container {
-  /* position: relative; */
 }
 
 .row {
   margin: 0;
+  padding: 0;
 }
 
 .section-title {
@@ -204,15 +184,10 @@ a {
 .section-title-container {
   padding: 10px 0;
   text-align: center;
-  width: 100%;
 }
 
 #skills-image-desktop {
-  /* right: 2%;
-  padding: 0; */
   display: none;
-  /* position: absolute; */
-  /* top: 160px; */
   visibility: hidden;
 }
 
@@ -282,25 +257,42 @@ a {
 /* ------ MEDIUM DEVICE MEDIA QUERY ------ */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #bio-info {
+    background: none;
+    box-shadow: none;
     font-size: 2.5rem;
-    padding: 20px;
-    top: 280px;
+    margin: 25px 0 0 0;
   }
 
-  #headshot {
+  #footer-banner-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #headshot-desktop {
+    display: inherit;
+    height: 225px;
+    margin: 25px 0 0 0;
+    position: absolute;
     -webkit-clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
+    z-index: 104;
   }
 
-  #name-title {
-    margin: 50px 0 0 150px;
+  #headshot-mobile {
+    display: none;
+  }
+
+  #name {
+    font-size: 3.5rem;
+    margin: 40px 0 0 250px;
   }
 
   #name-banner-container {
-    height: 300px;
+    height: 175px;
   }
 
-  #projects-section-container {
-    top: 130px;
+  #occupation-title {
+    font-size: 3rem;
+    margin: 80px 0 0 245px;
   }
 
   .section-title-container {
@@ -309,19 +301,15 @@ a {
 
   #skills-image-desktop {
     display: inherit;
-    height: 340px;
+    margin: 0;
     padding: 0;
-    position: absolute;
-    right: 2%;
-    top: 160px;
     visibility: visible;
-    width: 70%;
+    width: 100%;
     z-index: 101;
   }
 
   #skills-image-mobile {
     display: none;
-    visibility: hidden;
   }
 }
 
@@ -330,11 +318,10 @@ a {
   #bio-info {
     font-size: 2.5rem;
     padding: 20px;
-    top: 280px;
   }
 
   #projects-section-container {
-    top: 260px;
+
   }
 
   .section-title-container {
@@ -342,13 +329,12 @@ a {
   }
 
   #skills-image-desktop {
+    display: inherit;
     height: 380px;
     padding: 0;
     position: absolute;
     right: 2%;
-    top: 160px;
     visibility: visible;
-    width: 60%;
     z-index: 101;
   }
 
@@ -362,7 +348,6 @@ a {
   #bio-info {
     font-size: 2.5rem;
     padding: 20px;
-    top: 280px;
   }
 
   #name-title {
@@ -379,7 +364,7 @@ a {
   }
 
   #projects-section-container {
-    top: 350px;
+
   }
 
   .section-title-container {
@@ -387,13 +372,12 @@ a {
   }
 
   #skills-image-desktop {
+    display: inherit;
     height: 470px;
     padding: 0;
     position: absolute;
     right: 2%;
-    top: 160px;
     visibility: visible;
-    width: 60%;
     z-index: 101;
   }
 
@@ -413,5 +397,6 @@ black2: #14100E
 */
 
 /* fonts:
-
+font-family: 'Nunito', sans-serif;
+font-family: 'Alegreya', serif;
 */
