@@ -1,6 +1,6 @@
 body {
   background-color: #191411;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -8,9 +8,12 @@ a {
 }
 
 #bio-info {
+  background: linear-gradient(#2B2B2A, #222221);
+  box-shadow: 0px 5px 15px #222221;
   color: #FFFFFF;
   font-size: 1.75rem;
-  margin-top: -30px;
+  margin-top: 10px;
+  padding: 1px 0;
   position: relative;
 }
 
@@ -20,47 +23,60 @@ a {
 }
 
 #header-container {
-  background-color: #2B2B2A;
+  /* background-color: #2B2B2A; */
+  /* background: linear-gradient(#2B2B2A, #222221); */
+  /* box-shadow: 0px 0px 15px #222221; */
   height: 100%;
   position: relative;
 }
 
 .headline-text {
   color: #32748E;
-  font-size: 2.7rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
-#headshot {
+#headshot-desktop {
+  display: none;
   clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
   height: 120px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 -35px;
   position: absolute;
   z-index: 99;
 }
 
+#headshot-mobile {
+  height: 120px;
+  margin: 10px 0 0 0;
+  position: absolute;
+  z-index: 99;
+}
+
+.list-items {
+  font-family: 'Alegreya', serif;;
+}
+
 #name-banner-container {
-  background-color: #32748E;
+  background: linear-gradient(#32748E, #285c71);
   clip-path: polygon(0 15%, 100% 0, 100% 65%, 0 100%);
-  display: relative;
   height: 90px;
   margin: 20px 0 0 0;
   max-width: 2000px;
+  position: relative;
+  z-index: 98;
 }
 
-#name-title {
-  color: #454449;
-  font-family: 'Trirong', serif;
-  font-size: 2rem;
-  margin: 15px 0 0 125px;
+#name {
+  color: #FFFFFF;
+  font-size: 2.25rem;
+  margin: 15px 0 0 115px;
   position: absolute;
   transform: rotate(-2.5deg);
   z-index: 100;
 }
 
 #occupation-title {
-  color: #FFFFFF;
-  font-family: 'Work Sans', sans-serif;
+  color: #869193;
   font-size: 1.75rem;
   font-weight: 100;
   margin: 40px 0 0 130px;
@@ -75,6 +91,7 @@ a {
 }
 
 .project-image-container {
+  margin-top: 10px;
   padding: 0;
 }
 
@@ -102,7 +119,8 @@ a {
 }
 
 #project-row-2 {
-  background-color: #2B2B2A;
+  background: linear-gradient(#2B2B2A, #222221);
+  box-shadow: 0px 5px 15px #222221;
   margin: 0;
   padding: 0;
   z-index: 100;
@@ -117,13 +135,15 @@ a {
   color: #FFFFFF;
   font-size: 1.75rem;
   margin: 0 10px;
+  padding: 5px 0;
 }
 
 .project-title {
   color: #32748E;
   /* display: inline-block; */
-  font-size: 2.7rem;
+  font-size: 2.25rem;
   margin: 0 10px;
+  padding: 15px 0 5px 0;
   /* text-align: center; */
 }
 
@@ -140,15 +160,16 @@ a {
   clip-path: polygon(0 0, 100% 0, 98% 83%, 83% 100%, 4% 99%);
   color: #FFFFFF;
   display: inline-block;
-  font-family: 'Taviraj', serif;
-  font-size: 2.7rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
   margin: 10px 0;
   text-align: center;
   width: 175px;
 }
 
 .section-title-container {
-  padding: 0;
+  padding: 10px 0;
   text-align: center;
   width: 100%;
 }
@@ -163,10 +184,10 @@ a {
 }
 
 #skills-image-mobile {
-  height: 430px;
+  height: 350px;
   left: 50%;
-  margin: -35px 0 0 -165px;
-  padding: 12px 0;
+  margin: 10px 0 0 -140px;
+  padding: 0;
   position: relative;
   visibility: visible;
 }
@@ -253,6 +274,10 @@ a {
     font-size: 2.5rem;
     padding: 20px;
     top: 280px;
+  }
+
+  #headshot {
+    clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
   }
 
   #name-title {
@@ -377,10 +402,5 @@ black2: #14100E
 */
 
 /* fonts:
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Trirong', serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Work Sans', sans-serif;
-font-family: 'Taviraj', serif;
-font-family: 'Gentium Basic', serif;
+
 */
