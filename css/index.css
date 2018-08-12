@@ -46,8 +46,8 @@ a {
 }
 
 #headshot-mobile {
-  height: 120px;
-  margin: 10px 0 0 0;
+  height: 110px;
+  margin: 15px 0 0 0;
   position: absolute;
   z-index: 99;
 }
@@ -70,7 +70,7 @@ a {
 #name {
   color: #FFFFFF;
   font-size: 2rem;
-  margin: 15px 0 0 115px;
+  margin: 15px 0 0 105px;
   position: absolute;
   transform: rotate(-2.5deg);
   z-index: 100;
@@ -80,7 +80,7 @@ a {
   color: #869193;
   font-size: 1.7rem;
   font-weight: 100;
-  margin: 40px 0 0 120px;
+  margin: 40px 0 0 106px;
   position: absolute;
   transform: rotate(-2.5deg);
   z-index: 101;
@@ -115,19 +115,21 @@ a {
 }
 
 #project-row-1 {
+  background: linear-gradient(#2B2B2A, #222221);
+  box-shadow: 0px 5px 15px #222221;
   margin: 0;
   padding: 0;
 }
 
 #project-row-2 {
-  background: linear-gradient(#2B2B2A, #222221);
-  box-shadow: 0px 5px 15px #222221;
   margin: 0;
   padding: 0;
   z-index: 100;
 }
 
 #project-row-3 {
+  background: linear-gradient(#2B2B2A, #222221);
+  box-shadow: 0px 5px 15px #222221;
   margin: 0;
   padding: 0;
 }
