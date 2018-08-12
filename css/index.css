@@ -219,7 +219,7 @@ a {
 #skills-image-mobile {
   height: 350px;
   left: 50%;
-  margin: -20px 0 -10px -140px;
+  margin: -20px 0 0 -140px;
   padding: 0;
   position: relative;
   visibility: visible;
@@ -227,77 +227,55 @@ a {
 
 /* ------ SMALL DEVICE MEDIA QUERY ------ */
 @media (min-width: 576px) and (max-width: 767px) {
+  .bio-icon {
+    height: 40px;
+  }
+
   #bio-info {
-    font-size: 2.1rem;
-    padding-top: 370px;
-    position: relative;
+    font-size: 2rem;
+    padding: 15px;
   }
 
-  #bio-title {
-    font-size: 1.8rem;
-    padding: 30px 0 0 175px;
+  #headshot-mobile {
+    height: 150px;
+    margin: 5px 0 0 0;
   }
 
-  #headshot {
-    height: 135px;
-    margin: 15px 0 0 0;
-  }
-
-  #name-title {
-    font-size: 2.2rem;
-    padding: 5px 0 0 160px;
-    position: absolute;
-    transform: rotate(-2deg);
+  #name {
+    font-size: 2.75rem;
+    padding: 10px 0 0 40px;
   }
 
   #name-banner-container {
-    height: 100px;
+    height: 125px;
   }
 
-  #project-image-1 {
-
+  #occupation-title {
+    font-size: 2.25rem;
+    margin: 55px 0 0 150px;
   }
 
   .project-image-container {
     padding: 0 15px;
   }
 
-  #project-row-1 {
-    padding-top: 10px;
-    position: relative;
-    top: 0;
+  .project-paragraph-text {
+    font-size: 2rem;
   }
 
-  #project-row-2 {
-    position: relative;
-    top: 0;
-  }
-
-  #project-row-3 {
-    position: relative;
-    top: 0;
-  }
-
-  #project-text-1 {
-    position: relative;
-    z-index: 101;
-  }
-
-  #projects-section-container {
-    position: relative;
-    top: 85px;
+  .project-title {
+    font-size: 2.25rem;
   }
 
   .section-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 0;
     width: 200px;
   }
 
   #skills-image-mobile {
-    height: 510px;
-    padding: 0 18%;
-    top: 95px;
+    height: 500px;
+    margin-left: -200px;
   }
 }
 
