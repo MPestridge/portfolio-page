@@ -136,19 +136,19 @@ a {
   background: linear-gradient(#2B2B2A, #222221);
   box-shadow: 0px 5px 15px #222221;
   margin: 0;
-  padding: 0;
+  padding: 2% 0;
 }
 
 #project-row-2 {
   margin: 0;
-  padding: 0;
+  padding: 2% 0;
 }
 
 #project-row-3 {
   background: linear-gradient(#2B2B2A, #222221);
   box-shadow: 0px 5px 15px #222221;
   margin: 0;
-  padding: 1px 0 0 0;
+  padding: 2% 0;
 }
 
 .project-paragraph-text {
@@ -298,15 +298,15 @@ a {
   }
 
   #project-row-1 {
-    padding: 0 30px;
+    padding: 2% 30px;
   }
 
   #project-row-2 {
-    padding: 0 30px;
+    padding: 2% 30px;
   }
 
   #project-row-3 {
-    padding: 0 30px;
+    padding: 2% 30px;
   }
 
   .project-title {
