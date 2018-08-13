@@ -239,7 +239,7 @@ a {
   }
 
   .project-title {
-    font-size: 2.25rem;
+    font-size: 2.35rem;
   }
 
   .section-title {
@@ -262,11 +262,6 @@ a {
     font-size: 2rem;
     margin: 25px 0 0 0;
     padding: 10px;
-  }
-
-  #footer-banner-container {
-    margin: 0;
-    padding: 0;
   }
 
   #headshot-desktop {
@@ -313,7 +308,7 @@ a {
   }
 
   .project-title {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
   }
 
   .section-title {
@@ -341,13 +336,67 @@ a {
 
 /* ------ LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .bio-icon {
+    height: 35px;
+  }
+
   #bio-info {
+    background: none;
+    box-shadow: none;
     font-size: 2.5rem;
     padding: 20px;
   }
 
-  #projects-section-container {
+  #footer-banner-container {
+    height: 125px;
+  }
 
+  .footer-icon {
+    height: 35px;
+  }
+
+  #footer-icons-container {
+    padding-top: 30px;
+  }
+
+  #headshot-desktop {
+    display: inherit;
+    height: 250px;
+    margin: 20px 0 0 0;
+    position: absolute;
+    -webkit-clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
+    z-index: 104;
+  }
+
+  #headshot-mobile {
+    display: none;
+  }
+
+  #name {
+    font-size: 3.75rem;
+    margin: 50px 0 0 275px;
+  }
+
+  #name-banner-container {
+    height: 200px;
+  }
+
+  #occupation-title {
+    font-size: 3.25rem;
+    margin: 95px 0 0 270px;
+  }
+
+  .project-paragraph-text {
+    font-size: 2.25rem;
+  }
+
+  .project-title {
+    font-size: 2.75rem;
+  }
+
+  .section-title {
+    font-size: 2.75rem;
+    width: 225px;
   }
 
   .section-title-container {
@@ -356,11 +405,10 @@ a {
 
   #skills-image-desktop {
     display: inherit;
-    height: 380px;
+    margin: -10px 0 0 0;
     padding: 0;
-    position: absolute;
-    right: 2%;
     visibility: visible;
+    width: 100%;
     z-index: 101;
   }
 
@@ -372,25 +420,62 @@ a {
 /* ------ EXTRA LARGE DEVICE MEDIA QUERY ------ */
 @media (min-width: 1200px) {
   #bio-info {
+    background: none;
+    box-shadow: none;
     font-size: 2.5rem;
-    padding: 20px;
+    padding: 10px;
   }
 
-  #name-title {
-    /* font-size: 6rem; */
-    /* margin: 55px 0 0 270px; */
+  #footer-banner-container {
+    height: 125px;
+  }
+
+  .footer-icon {
+    height: 35px;
+  }
+
+  #footer-icons-container {
+    padding-top: 30px;
+  }
+
+  #headshot-desktop {
+    display: inherit;
+    height: 250px;
+    margin: 20px 0 0 0;
+    position: absolute;
+    -webkit-clip-path: polygon(24% 6%, 100% 0, 100% 78%, 6% 93%, 0 84%, 0 34%);
+    z-index: 104;
+  }
+
+  #headshot-mobile {
+    display: none;
+  }
+
+  #name {
+    font-size: 3.75rem;
+    margin: 50px 0 0 275px;
+  }
+
+  #name-banner-container {
+    height: 200px;
+  }
+
+  #occupation-title {
+    font-size: 3.25rem;
+    margin: 95px 0 0 270px;
   }
 
   .project-paragraph-text {
-    font-size: 2.1rem;
+    font-size: 2.25rem;
   }
 
   .project-title {
-    font-size: 3.3rem;
+    font-size: 2.75rem;
   }
 
-  #projects-section-container {
-
+  .section-title {
+    font-size: 2.75rem;
+    width: 225px;
   }
 
   .section-title-container {
@@ -399,11 +484,10 @@ a {
 
   #skills-image-desktop {
     display: inherit;
-    height: 470px;
+    margin: -15px 0 0 0;
     padding: 0;
-    position: absolute;
-    right: 2%;
     visibility: visible;
+    width: 100%;
     z-index: 101;
   }
 
