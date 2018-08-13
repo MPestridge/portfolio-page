@@ -1,6 +1,8 @@
 body {
   background-color: #191411;
   font-family: 'Nunito', sans-serif;
+  margin: 0 auto;
+  max-width: 1400px;
   overflow-x: hidden;
 }
 
