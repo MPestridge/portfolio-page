@@ -259,8 +259,9 @@ a {
   #bio-info {
     background: none;
     box-shadow: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 25px 0 0 0;
+    padding: 10px;
   }
 
   #footer-banner-container {
@@ -293,6 +294,31 @@ a {
   #occupation-title {
     font-size: 3rem;
     margin: 80px 0 0 245px;
+  }
+
+  .project-paragraph-text {
+    font-size: 2rem;
+  }
+
+  #project-row-1 {
+    padding: 0 30px;
+  }
+
+  #project-row-2 {
+    padding: 0 30px;
+  }
+
+  #project-row-3 {
+    padding: 0 30px;
+  }
+
+  .project-title {
+    font-size: 2.2rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    width: 200px;
   }
 
   .section-title-container {
